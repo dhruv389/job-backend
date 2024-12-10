@@ -11,7 +11,7 @@ dotenv.config(); // Load environment variables
 const app = express();
 const port = process.env.PORT || 3000;
 const corsOptions = {
-  origin: 'https://jobspring.vercel.app/', // Replace with your website's URL
+  origin: 'https://jobspring.vercel.app', // Replace with your website's URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
 };
